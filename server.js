@@ -71,7 +71,7 @@ app.post('/imageurl',(req,res)=>{image.handleApi(req,res)})
 
 
 
-app.listen(3002);
+app.listen(process.env.PORT||3000);
 
 
 
